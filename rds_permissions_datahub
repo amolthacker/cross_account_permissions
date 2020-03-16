@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "rds:AddTagsToResource",
+                "rds:DescribeDBSubnetGroups",
+                "rds:DescribeDBParameterGroups",
+                "rds:DescribeDBSecurityGroups",
+                "rds:DeleteDBInstanceAutomatedBackup",
+                "rds:CreateDBSubnetGroup",
+                "rds:DeleteDBSubnetGroup",
+                "rds:ListTagsForResource",
+                "rds:DeleteDBSecurityGroup",
+                "rds:CreateDBInstance",
+                "rds:DescribeDBInstances",
+                "rds:DescribeDBParameters",
+                "rds:DeleteDBClusterParameterGroup",
+                "rds:RemoveTagsFromResource",
+                "rds:DeleteDBCluster",
+                "rds:CreateDBInstanceReadReplica",
+                "rds:DeleteDBInstance"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
