@@ -4,7 +4,34 @@
         {
             "Sid": "VisualEditor0",
             "Effect": "Allow",
-            "Action": "ec2:*",
+            "Action": [
+                "ec2:CreateKeyPair",
+                "ec2:DeleteKeyPair",
+                "ec2:ImportKeyPair",
+                "ec2:DescribeKeyPairs",
+                "ec2:CreateTags",
+                "ec2:DeleteTags",
+                "ec2:CreateVolume",
+                "ec2:DeleteVolume",
+                "ec2:AttachVolume",
+                "ec2:DescribeVolumes",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeImages",
+                "ec2:DescribeInstances",
+                "ec2:DescribeInstanceStatus",
+                "ec2:DescribeRegions",
+                "ec2:DescribeRouteTables",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcAttribute",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeAccountAttributes",
+                "ec2:CopyImage",
+                "ec2:DeregisterImage",
+                "ec2:CreateSnapshot",
+                "ec2:DeleteSnapshot",
+                "ec2:DescribeSnapshots"
+            ],
             "Resource": "*"
         }
     ]
